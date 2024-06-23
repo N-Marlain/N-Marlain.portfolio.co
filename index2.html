@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Marlain NGUELE/Portfolio</title>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+  <!-- css -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,300,700,800" rel="stylesheet" media="screen">
+
+  <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <link href="css/style2.css" rel="stylesheet" media="screen">
+  <link href="color/default.css" rel="stylesheet" media="screen">
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-default" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+          <span class="sr-only">Toggle nav</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+        <!-- Logo text or image -->
+        <a class="navbar-brand" href="index.html">Marlain NGUELE</a>
+
+      </div>
+      <div class="navigation collapse navbar-collapse navbar-ex1-collapse">
+        <ul class="nav navbar-nav">
+          <li class="current"><a href="index.html">Home</a></li>
+          <li><a href="#about">Firewalling</a></li>
+          <li><a href="#VPN">VPN</a></li>
+          <li><a href="#services">SIEM</a></li>
+          <li><a href="#Virtualisation">Virtualisation</a></li>
+          <li><a href="#Reseau">Reseau</a></li>          
+          <li><a href="#System">System</a></li>          
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- intro area -->
+  <section id="intro">
+    <div class="intro-container">
+      <div id="introCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+
+        <div class="carousel-inner" role="listbox">
+
+          <!-- Slide 1 -->
+          <div class="item active">
+            <div class="carousel-background"><img src="img/intro/1.jpg" alt=""></div>
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2 class="animated fadeInDown">Administration Réseau</h2>
+                <p class="animated fadeInUp">Les réseaux informatiques tissent des liens invisibles entre les cœurs et les continents. Ils abolissent les distances, rapprochant le lointain. Chaque connexion est un fils dans la toile de notre ère numérique, où les idées se rassemblent et les communautés s'assemblent.</p>
+                <a href="#Reseau" class="btn-get-started animated fadeInUp">Read More</a>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Slide 2 -->
+          <div class="item">
+            <div class="carousel-background"><img src="img/intro/2.jpg" alt=""></div>
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2 class="animated fadeInDown">Administration Système</span></h2>
+                <p class="animated fadeInUp">Les systèmes informatiques sont l'âme invisible de notre époque. Ils orchestrent avec une précision délicate la symphonie des données et des processus. Chaque os, chaque ligne de code, est une note dans une mélodie complexe, harmonisant nos vies numériques avec une élégance silencieuse et essentielle.</p>
+                <a href="#System" class="btn-get-started animated fadeInUp">Read More</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 3 -->
+          <div class="item">
+            <div class="carousel-background"><img src="img/intro/3.jpg" alt=""></div>
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2 class="animated fadeInDown">Administration cybersécurité</span></h2>
+                <p class="animated fadeInUp">La cybersécurité est le gardien vigilant de notre monde numérique. Elle veille, telle une sentinelle permanente, protégeant nos données et nos rêves des ombres menaçantes. Dans le silence des réseaux, elle forme un bouclier de confiance, où chaque algorithme est un rempart, chaque protocole un serment de sécurité.</p>
+                <a href="#about" class="btn-get-started animated fadeInUp">Read More</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <a class="carousel-control-prev" href="#introCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon fa fa-angle-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+
+        <a class="carousel-control-next" href="#introCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon fa fa-angle-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+
+      </div>
+    </div>
+  </section><!-- #intro -->
+
+  <!-- Firewalling -->
+  <section id="about" class="home-section bg-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-offset-2 col-md-8">
+          <div class="section-heading">
+            <h2>Firewalling</h2>
+            <div class="heading-line"></div>
+            
+          </div>
+        </div>
+      </div>
+      <div class="row wow fadeInUp">
+        <div class="col-md-6 about-img">
+          <img src="img/projet/forti1.jpg" alt="">
+        </div>
+
+        <div class="col-md-6 content">
+          <h2>Architecture</h2>
+          <p>Pour ce projet j'ai travaillé avec des equipement physique. Pour commencer, un Fortigate 60D, aussi un switch cisco2950, un point d'accès TP-Link. En ce qui concerne la topologie logique, le réseau local était segmenté en 5 Vlans (Guest, Management, Print, Server, User) grace au switch. Le point d'accès devait servir uniquement au Vlan guest.  
+          </p>
+          
+          
+        </div>
+      </div>
+       <div class="row wow fadeInUp">
+        <div class="col-md-6 about-img">
+          <img src="img/projet/forti3.jpg" alt="">
+        </div>
+
+        <div class="col-md-6 content">
+          <h2>Administration Fortigate</h2>
+          <p>Par défaut le Fortigate a pour login: admin et il n'a pas de mot de passe, à la première connection, on definit un mot de passe. Cependant pour une meilleur gestion des comptes administrateurs dans fortigate il faut se rendre à la partie system settings. Ainsi on peut modifier le login et mot de passe, ajouter d'autre comptes admins. Aussi vous pouvez changer d'autres paramètre comme le nom de votre forti, le language utilisé, la couleur du thème... bref, le personnalisé. 
+          </p>
+          
+          
+        </div>
+      </div>
+      <div class="row wow fadeInUp">
+        <div class="col-md-6 about-img">
+          <img src="img/projet/forti4.jpg" alt="">
+        </div>
+
+        <div class="col-md-6 content">
+          <h2>Interfaces </h2>
+          <p>C'est dans l'onglet Interfaces qu'on commence nos configuration reseau, en choisissant lesquelles des ports du forti sera utilisé pour tel ou tel application. Dans notre cas il s'agissait de 3 ports en particulier. Le premier(Internal) qu'on reserve uniquement aux administrateurs et qui permet à un admin la connexion direct au forti. Le deuxième (Wan) qui est la connexion avec le fournisseur d'accès internet(FAI). Le dernier (LAN) qui se connecte au switch et donc à notre réseau local. C'est à se nouveau que j'ai ajouter nos différents VLANs.
+          </p>
+          
+          
+        </div>
+      </div>
+      <div class="row wow fadeInUp">
+        <div class="col-md-6 about-img">
+          <img src="img/projet/forti5.jpg" alt="">
+        </div>
+
+        <div class="col-md-6 content">
+          <h2>interconnexion & Acl</h2>
+          <p>Après avoir créer les interfaces et ajouté les Vlans il faut gerer la façons dont tout celà doit communiquer. Pour se faire direction Policy&Objects, plus précisement au niveau d'IPV4 policy. J'ai fais du routage intervlan et ajouter certaine règle comme autoriser la communication entre le VLAN User et le VLAN Print pour permetre aux utilisateurs de pouvoir avoir accès aux imprimentes, autoriser le VLAN User à avoir accès à l'interface WAN, donc à internet, et bien d'autre encore pour reliant bonne utilisation et sécurité. 
+          </p>
+          
+          
+        </div>
+      </div>
+      <div class="row wow fadeInUp">
+        <div class="col-md-6 about-img">
+          <img src="img/projet/forti7.jpg" alt="">
+        </div>
+
+        <div class="col-md-6 content">
+          <h2>Filtrage Web</h2>
+          <p>Fortigate est un parefeu puissant qui nous perme tde mettre plusieur outils de sécurité. L'onglet Securite & Profile est là pour ça. Ici je vais juste montré le filtrage web, comment interdire les utilisateurs d'acceder à un site internet ? Se rendre à web filter, url filter, ajouter l'url du site à bloquer dans notre cas (*pornhub.com) spécifier le type wildcard, préciser l'action Block, vérifier le status enable et enregistrer le tout. Il ne reste plus qu'à choisir sur quelle interface l'appliquer (Chez nous le VLAN User) et le tour est joué.
+          </p>
+          
+          
+        </div>
+      </div>
+      <div class="row wow fadeInUp">
+        <div class="col-md-6 about-img">
+          <img src="img/projet/forti9.jpg" alt="">
+        </div>
+
+        <div class="col-md-6 content">
+          <h2>Filtrage Web</h2>
+          <p>Test d'accès au site depuis le bureau d'un utilisateur du VLAN user avant l'application de la règle de filtrage. En faisant ipconfig sur l'invite de commande on voit bien son adresse ip 192.168.30.12
+          </p>
+          
+          
+        </div>
+      </div>
+      <div class="row wow fadeInUp">
+        <div class="col-md-6 about-img">
+          <img src="img/projet/forti10.jpg" alt="">
+        </div>
+
+        <div class="col-md-6 content">
+          <h2>Filtrage Web</h2>
+          <p>Test d'accès au site depuis le bureau d'un utilisateur du VLAN user après l'application de la règle de filtrage. En faisant ipconfig sur l'invite de commande on voit bien son adresse ip 192.168.30.12 cependant on a plus accès au site internet car le parefeu l'a bloqué
+          </p>
+          
+          
+        </div>
+      </div>
+      <div class="row wow fadeInUp">
+        <div class="col-md-6 about-img">
+          <img src="img/projet/forti11.jpg" alt="">
+        </div>
+
+        <div class="col-md-6 content">
+          <h2>Filtrage Web</h2>
+          <p>De plus en consultant les logs au niveau du fortigate on se rend bien compte que le firewall refuse tout paquets provenant de l'url spécifié au VLAN User
+          </p>
+          
+          
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="VPN" class="home-section bg-gray">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-offset-2 col-md-8">
+          <div class="section-heading">
+            <h2>VPN</h2>
+            <div class="heading-line"></div>
+            
+          </div>
+        </div>
+      </div>
+      <div class="row wow fadeInUp">
+        <div class="col-md-6 VPN-img">
+          <img src="img/projet/vpn1.jpg" alt="">
+        </div>
+
+        <div class="col-md-6 content">
+          <h2>Mise en place et gestion d'un VPN avec OpenVPN</h2>
+          <p>
+Au cours des mois de juin, juillet et août 2023, j'ai mis en place et géré un réseau privé virtuel (VPN) utilisant OpenVPN. Ce projet avait pour objectif d'assurer des connexions sécurisées entre différents utilisateurs et systèmes, en encapsulant et en chiffrant les communications réseau.
+<br>
+Pour commencer, j'ai procédé à l'installation et à la configuration d'un serveur OpenVPN, gérer l'encapsulation et le chiffrement des données, garantissant ainsi la confidentialité et l'intégrité des communications entre les clients connectés au VPN. J'ai également mis en place les interconnexions avec les clients, en configurant les certificats et les clés de chiffrement nécessaires pour authentifier les utilisateurs et sécuriser les connexions.
+Une fois le VPN opérationnel, j'ai assuré la maintenance continue de l'architecture, surveillant les performances du réseau et ajustant les configurations en fonction des besoins et des évolutions de l'infrastructure. Cette phase de maintenance a également inclus la gestion des incidents, la résolution des problèmes techniques et l'optimisation des performances du VPN pour garantir une connectivité fiable et sécurisée pour tous les utilisateurs.
+<br>
+Ce projet m'a permis de développer des compétences avancées en mise en place et gestion de VPN, en particulier avec OpenVPN. J'ai acquis une expérience précieuse en installation et configuration de solutions de sécurité réseau, en encapsulation et chiffrement des communications, ainsi qu'en gestion et maintenance d'une architecture VPN robuste et sécurisée.  
+          </p>
+        </div>
+      </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Parallax 1 -->
+  <section id="parallax1" class="home-section parallax" data-stellar-background-ratio="0.5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="color-light">
+            <h2 class="wow bounceInDown" data-wow-delay="0.5s">The quieter you become, the more you are able to hear.#Kali#Redteam#Pentest</h2>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="home-section bg-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-offset-2 col-md-8">
+          <div class="section-heading">
+            <h2>SIEM</h2>
+            <div class="heading-line"></div>
+            
+          </div>
+        </div>
+      </div>
+      <div class="row wow fadeInUp">
+        <div class="col-md-6 services-img">
+          <img src="img/projet/siem1.jpg" alt="">
+        </div>
+
+        <div class="col-md-6 content">
+          <h2>Installation </h2>
+          <p>J'ai commencé par l'installation d'AlienVault OSSIM sur un serveur dédié, configurant les paramètres initiaux nécessaires pour intégrer le SIEM dans l'infrastructure existante. La configuration a impliqué la mise en place de divers composants essentiels tels que les collecteurs de logs, les agents de surveillance, et les alertes de sécurité. Voilà le tableau de bords après installation.
+          </p>
+        </div>
+      </div>
+       <div class="row wow fadeInUp">
+        <div class="col-md-6 services-img">
+          <img src="img/projet/siem2.jpg" alt="">
+        </div>
+
+        <div class="col-md-6 content">
+          <h2>Dashbord</h2>
+          <p>Une fois installé, j'ai configuré AlienVault OSSIM pour collecter et analyser les données de sécurité provenant de différentes sources au sein du réseau. J'ai également mis en place des règles de corrélation pour détecter les activités suspectes et les anomalies, permettant ainsi une réponse rapide et efficace aux incidents de sécurité. Cette étape a inclus la création de tableaux de bord personnalisés pour une visualisation claire des événements de sécurité et des performances du réseau. 
+          </p>
+          
+          
+        </div>
+      </div>
+      </div>
+    </div>
+  </section>
+        
+
+  <!-- Virtualisation -->
+  <section id="Virtualisation" class="home-section bg-gray">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-offset-2 col-md-8">
+          <div class="section-heading">
+            <h2>Virtualisation</h2>
+            <div class="heading-line"></div>
+            
+          </div>
+        </div>
+      </div>
+      <div class="row wow fadeInUp">
+        <div class="col-md-6 Virtualisation-img">
+          <img src="img/projet/vir1.jpg" alt="">
+        </div>
+        
+        <div class="col-md-6 content">
+          <h2>Vsphere & HA</h2>
+          <p>Pour commencer, j'ai appris à utiliser vSphere pour gérer les clusters, assurant ainsi une répartition optimale des ressources et une haute disponibilité des services. La gestion des hôtes ESXi a inclus la configuration, la maintenance et la surveillance des serveurs de virtualisation.  
+          </p>
+        </div>
+        </div>
+       <div class="row wow fadeInUp">
+        <div class="col-md-6 Virtualisation-img">
+          <img src="img/projet/vir2.jpg" alt="">
+        </div>
+
+        <div class="col-md-6 content">
+          <h2>Administration Fortigate</h2>
+          <p>J'ai également créé et supprimé des machines virtuelles en fonction des besoins de l'organisation, en configurant les ressources allouées telles que la CPU, la mémoire et le stockage. En outre, j'ai administré les réseaux virtuels, ce qui impliquait la création et la gestion de commutateurs virtuels pour optimiser la connectivité et la sécurité des machines virtuelles. </p>  
+        </div>
+        <div class="col-md-6 Virtualisation-img">
+          <img src="img/projet/vir3.jpg" alt="">
+        </div>
+
+      </div>
+      </div>
+    </div>
+  </section>
+ <section id="Reseau" class="home-section bg-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-offset-2 col-md-8">
+          <div class="section-heading">
+            <h2>Reseau</h2>
+            <div class="heading-line"></div>
+            
+          </div>
+        </div>
+      </div>
+      <div class="row wow fadeInUp">
+        <div class="col-md-6 Reseau-img">
+          <img src="img/projet/rx1.jpg" alt="">
+        </div>
+
+        <div class="col-md-6 content">
+          <h2>Lab Interconnexion</h2>
+          <p>Dans ce projet purement reseau il était question de configurer plusieurs protocole de routage (Static, Ospf, Eigrp, Bgp). De plus les deux protocoles internet ont été utilisé (Ipv4 et ipv6). Au niveau 2, plusieurs switchs ainsi que d'autres protocole (Vtp Etherchannel Spanning tree). Réaliser sur le logiciel packet tracert de cisco.
+        </div>
+      </div>
+       <div class="row wow fadeInUp">
+        <div class="col-md-6 Reseau-img">
+          <img src="img/projet/rx2.jpg" alt="">
+        </div>
+        <div class="col-md-6 content">
+          <h2>Supervision</h2>
+          <p>Dans le cadre de ce projet, j'ai installé, déployé et maintenu la solution de supervision réseau Observium. Observium est un outil de surveillance avancé conçu pour surveiller l'état et les performances des réseaux et des systèmes.Ce projet m'a permis de développer des compétences solides en supervision réseau, en particulier avec Observium. J'ai acquis une expérience précieuse en installation et déploiement de solutions de surveillance, en configuration de paramètres réseau, en intégration d'appareils et de services, ainsi qu'en gestion et maintenance continues de la solution pour garantir une surveillance efficace et proactive des réseaux et systèmes.
+          </p>          
+        </div>
+      </div>
+      </div>
+    </div>
+  </section>
+  <!-- Parallax 2 -->
+  <section id="parallax2" class="home-section parallax" data-stellar-background-ratio="0.5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="wow bounceInDown" data-wow-delay="0.5s" style="color: white;">La confiance est une faille de sécurité.#Nevertrust#Alwaysverify</h2>
+          <p class="lead wow bounceInUp" data-wow-delay="1s"></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- System -->
+   <section id="System" class="home-section bg-gray">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-offset-2 col-md-8">
+          <div class="section-heading">
+            <h2>System</h2>
+            <div class="heading-line"></div>
+            
+          </div>
+        </div>
+      </div>
+      <div class="row wow fadeInUp">
+        <div class="col-md-6 System-img">
+          <img src="img/projet/sys1.jpg" alt="">
+        </div>
+
+        <div class="col-md-6 content">
+          <h2>Linux</h2>
+          <p>En décembre 2023, j'ai réalisé la mise en place d'un serveur de messagerie avec authentification centralisée via LDAP dans un environnement virtuel. Ce projet a été effectué en utilisant l'outil de virtualisation VMware Workstation Pro, avec CentOS 9 sans interface graphique.<br>Objectifs du projet<br> Mettre en place un serveur de messagerie sécurisé et fiable avec une authentification centralisée via LDAP. Configurer les protocoles SMTP et IMAP pour l'envoi et la réception des courriels.<br>Compétences et expériences acquises<br>
+Gestion de la virtualisation : Utilisation avancée de VMware Workstation Pro pour créer et gérer des environnements virtuels.
+Administration système UNIX : Configuration et gestion de CentOS 9 sans interface graphique, démontrant une maîtrise des commandes en ligne de commande et des scripts.
+Configuration de serveurs de messagerie : Installation et configuration de Postfix et Dovecot pour gérer les courriels entrants et sortants.
+Intégration et configuration de Roundcube : Mise en place d'une interface webmail fonctionnelle et sécurisée.
+Gestion des services DNS : Configuration de DNS pour assurer la résolution correcte des noms de domaine.
+Implémentation d'une authentification centralisée avec OpenLDAP : Mise en place et gestion d'un serveur LDAP pour l'authentification centralisée des utilisateurs.
+Réseaux et interconnectivité : Configuration des réseaux pour permettre la communication entre des machines virtuelles situées sur des machines physiques différentes.
+
+Ce projet a renforcé mes compétences en administration système, en gestion de serveurs de messagerie, en configuration de services réseaux et en utilisation d'outils de virtualisation. Il atteste de ma capacité à gérer des environnements complexes et à assurer la sécurité et la fiabilité des services de messagerie.
+          </p>
+        </div>
+      </div>
+       <div class="row wow fadeInUp">
+        <div class="col-md-6 System-img">
+          <img src="img/projet/sys2.jpg" alt="">
+        </div>
+        <div class="col-md-6 content">
+          <h2>Windows server</h2>
+          <p>
+En janvier 2024, j'ai entrepris la mise en place de Windows Server 2022 dans un environnement virtuel en utilisant VMware Workstation et Hyper-V. Ce projet visait à configurer plusieurs rôles essentiels et à gérer les utilisateurs et les politiques de sécurité.
+<br>
+Pour ce faire, j'ai déployé Windows Server 2022 dans des machines virtuelles sur VMware Workstation et Hyper-V, en configurant les paramètres réseau et les mises à jour nécessaires. J'ai ensuite installé et configuré plusieurs rôles de serveur, notamment Active Directory Domain Services (AD DS) pour gérer les utilisateurs, les groupes et les ordinateurs, ainsi que le service DNS pour la résolution des noms de domaine au sein du réseau. J'ai mis en place le service DHCP pour l'attribution automatique des adresses IP et installé Windows Server Update Services (WSUS) pour gérer les mises à jour des systèmes Windows.
+<br>
+La gestion des utilisateurs et des groupes a impliqué la création et l'administration des comptes utilisateurs et des groupes dans Active Directory, ainsi que la mise en place de stratégies de mot de passe pour renforcer la sécurité. En outre, j'ai configuré des stratégies de groupe (GPO) pour gérer les paramètres de sécurité et les configurations des utilisateurs et des ordinateurs, testant et ajustant ces GPO pour m'assurer qu'elles fonctionnent comme prévu et répondent aux besoins de l'organisation.
+<br>
+Ce projet m'a permis de développer une expertise dans l'installation et la configuration de Windows Server 2022 en environnements virtuels, ainsi qu'en gestion des services réseau et en virtualisation. J'ai acquis des compétences solides en administration des identités et des accès via Active Directory, en déploiement de services essentiels tels que DNS, DHCP et WSUS, et en création et application de politiques de sécurité. Cette expérience démontre ma capacité à configurer et à maintenir des environnements serveur complexes et sécurisés, tout en utilisant efficacement les plateformes de virtualisation VMware Workstation et Hyper-V.
+        </div>
+      </div>
+      
+      </div>
+    </div>
+ </section>
+  <!-- Contact -->
+  <section id="contact" class="home-section bg-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-offset-2 col-md-8">
+          <div class="section-heading">
+            <h2>Cybersécurité et Gestion Informatique: Parlons de Vos Besoins!</h2>
+            <div class="heading-line"></div>
+            <p>
+        N'hésitez pas à me contacter pour toutes vos préoccupations en matière d'administration systèmes, réseaux et sécurité informatique. Je suis prêt à relever les défis qui se présentent et à apporter des solutions efficaces. Que ce soit pour optimiser vos infrastructures, renforcer la sécurité de votre réseau ou résoudre des problèmes liés à l'administration système, je suis là pour vous accompagner.  
+        <br />Ensemble, nous pouvons élaborer des stratégies adaptées à vos besoins spécifiques. Votre satisfaction et la protection de vos systèmes informatiques sont ma priorité. N'hésitez pas à me contacter pour discuter de vos projets et défis en matière de technologies de l'information. Je suis disponible et prêt à collaborer pour garantir le succès de vos initiatives.</p>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <!-- Bottom widget -->
+  <section id="bottom-widget" class="home-section bg-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="contact-widget wow bounceInLeft">
+            <i class="fa fa-map-marker fa-4x"></i>
+            <h5>Localisation</h5>
+            <p>
+              Nyali Beau Séjour<br />Libreville 5iem arrondissement
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="contact-widget wow bounceInUp">
+            <i class="fa fa-phone fa-4x"></i>
+            <h5>Téléphone</h5>
+            <p>
+              +241 076 43 19 21<br>
+
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="contact-widget wow bounceInRight">
+            <i class="fa fa-envelope fa-4x"></i>
+            <h5>Email</h5>
+            <p>
+              marlainnguele3@gmail.com<br />marlainnguele2@gmail.com
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <p>Copyright &copy; Marlain NGUELE. All rights reserved.</p>
+          <div class="credits">
+            Designed by <a href="#intro">Marlain NGUELE</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+  <!-- js -->
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="js/jquery.scrollTo.min.js"></script>
+  <script src="js/jquery.nav.js"></script>
+  <script src="js/modernizr.custom.js"></script>
+  <script src="js/grid.js"></script>
+  <script src="js/stellar.js"></script>
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Template Custom Javascript File -->
+  <script src="js/custom.js"></script>
+
+</body>
+
+</html>
